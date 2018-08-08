@@ -1,5 +1,7 @@
 // Package getlogin provides functionality similar to libc's getlogin(3).
 
+// +build !windows
+
 // Similar to getlogin(3), this package should NOT be used for any security related checks.
 package getlogin
 
